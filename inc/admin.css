@@ -1,0 +1,124 @@
+/*
+Theme Name: Blacklight
+Css Admin
+*/
+
+#blb_container > .acf-label {
+    display:none;
+}
+
+#blb_container {
+    border-left:30px solid #72b307
+}
+
+#blb_row {
+}
+
+#blb_class input,
+#blb_id  input {
+    background-color:#989797;
+    color:#fff;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#blb_class input:focus,
+#blb_id  input:focus {
+    background-color:#1d1f21;
+    color:#2196F3;
+    font-weight:bold;
+}
+
+#blb_container .acf-repeater .acf-row-handle.order {
+    background-color:#2196F3 !important;
+    border-bottom:2px solid #fff; !important;
+    color:#fff;
+}
+
+#blb_row .layout {
+    margin:20px 0;
+    border-left:20px solid #464646;
+}
+
+.acf-accordion {
+    margin:2px 0 2px 2px!important;
+}
+
+.acf-accordion:nth-child(2),
+.acf-accordion:last-child {
+    margin:0px 0 0px 2px!important;
+}
+
+.acf-accordion-title {
+    background-color:#1fc2aa !important;
+    color:#fff; 
+}
+
+.acf-accordion-title:hover {
+    background-color:#1fc2aa !important;
+}
+
+.acf-input.acf-accordion-content {
+    background-color:#fafcfd !important;
+}
+
+.acf-field.acf-field-accordion {
+    margin:10px !important;
+}
+
+.acf-input.acf-accordion-content .acf-table {
+    border:none;
+}
+
+.acf-input.acf-accordion-content .acf-row > .order{
+    background-color:#4b5965;
+}
+
+.acf-input.acf-accordion-content .acf-row > td{
+    border-top:5px solid #fafcfd;
+    border-left:none;
+}
+
+.-sidebar > .acf-field > .acf-input > .acf-repeater > .acf-table {
+    border:none;
+    background-color:#f3f3f3 !important;
+}
+
+.-sidebar > .acf-field > .acf-input > .acf-repeater > .acf-table > .ui-sortable > .acf-row > td   {
+    border-top:5px solid #fff;
+    border-left:none;
+    background-color:#dee3e7 !important;
+
+}
+
+.acf-repeater .acf-row-handle.ui-sortable-handle,
+.-sidebar > .acf-field > .acf-input > .acf-repeater > .acf-table > .ui-sortable > .acf-row > .acf-row-handle.ui-sortable-handle {
+    background-color:#008bdb !important;
+}
+
+.-sidebar > .acf-field > .acf-input > .acf-repeater > .acf-table > .ui-sortable > .acf-row > .remove {
+    background-color:#8e8e8e !important;
+}
+
+.acf-repeater .acf-row-handle.order {
+    color:#fff !important;
+    text-shadow:none !important;
+}
+
+.acf-repeater .acf-row >.acf-row-handle .-collapse,
+.acf-repeater .acf-row >.acf-row-handle .-minus {
+    display:block;
+}
+
+.acf-repeater .acf-row >.acf-row-handle .-collapse {
+    margin-top:10%;
+}
+
+.acf-repeater .acf-row >.acf-row-handle .-minus {
+    background-color:#F44336;
+    color:#fff;
+    border:1px solid #000;
+}
