@@ -77,7 +77,6 @@
 </div>
 <!-- End Container -->
 
-
 <div class="container">
     <div class="row <?php paddingY(); ?> justify-content-md-center bl-pagination">
         <div class="col-md-5 text-left">
@@ -88,24 +87,4 @@
         </div>
     </div>
 </div>    
-
-    
-
-
-<div class="comments-container bg-lightgrey">
-    <div class="container">
-        <div class="row p-md-5 pt-5">
-            <div class="offset-md-2 col-md-8">
-                <?php 
-
-                    // If comments are open or we have at least one comment, load up the comment template.
-                    if ( comments_open() || get_comments_number() ) :
-                        comments_template();
-                    endif;
-
-                ?>
-            </div>
-        </div>
-    </div>
-</div>
 

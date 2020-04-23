@@ -9,7 +9,6 @@
 
 ?>
 
-
 <section class="bl-archive">
     <div class="container">
          
