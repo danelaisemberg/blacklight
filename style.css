@@ -618,21 +618,21 @@ bl-title a {
  ## Blog Font
 */
 
-.single-post .site-content,
-.single-post .site-content button,
-.single-post .site-content input,
-.single-post .site-content select,
-.single-post .site-content optgroup,
-.single-post .site-content textarea {
+.bl-blog,
+.bl-blog button,
+.bl-blog input,
+.bl-blog select,
+.bl-blog optgroup,
+.bl-blog textarea {
     font-family: 'PT Serif', serif;
 }
 
-.single-post .site-content h1,
-.single-post .site-content h2,
-.single-post .site-content h3,
-.single-post .site-content h4,
-.single-post .site-content h5,
-.single-post .site-content h6 {
+.bl-blog h1,
+.bl-blog h2,
+.bl-blog h3,
+.bl-blog h4,
+.bl-blog h5,
+.bl-blog h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -952,8 +952,8 @@ input.search-submit:hover {
  ### Blog Links
 */
 
-.single-post .site-content .entry-content > p a,
-.single-post .site-content .entry-content li a:not(.ez-toc-link),
+.bl-blog .entry-content > p a,
+.bl-blog .entry-content li a:not(.ez-toc-link),
 .bl-link {
     border-bottom: 2px solid #ee3c3b;
     color: #000;
@@ -1634,11 +1634,11 @@ object {
  Titulos
 */
 
-.single-post .site-content h1 {
+.bl-blog h1 {
     font-weight: bold;
 }
 
-.single-post h2:before {
+.bl-blog h2:before {
     background: #767676;
     content: "\020";
     display: block;
@@ -1647,27 +1647,27 @@ object {
     width: 1em;
 }
 
-.single-post .site-content h2,
-.single-post .site-content h3,
-.single-post .site-content h4,
-.single-post .site-content h5 {
+.bl-blog h2,
+.bl-blog h3,
+.bl-blog h4,
+.bl-blog h5 {
     font-weight: bold;
 }
 
-.single-post .site-content h2:not(.comments-title) {
+.bl-blog h2:not(.comments-title) {
     font-size: 32px;
     color: #ee3c3b;
 }
 
-.single-post .site-content h3 {
+.bl-blog h3 {
     font-size: 24px;
 }
 
-.single-post .site-content h4 {
+.bl-blog h4 {
     font-size: 22px;
 }
 
-.single-post .site-content h5 {
+.bl-blog h5 {
     font-size: 19px;
 }
 
@@ -1675,19 +1675,19 @@ object {
  Parrafos
 */
 
-.single-post .site-content,
-.single-post .site-content button,
-.single-post .site-content input,
-.single-post .site-content select,
-.single-post .site-content optgroup,
-.single-post .site-content textarea {
+.bl-blog,
+.bl-blog button,
+.bl-blog input,
+.bl-blog select,
+.bl-blog optgroup,
+.bl-blog textarea {
     color: #272727;
     font-size: 16px;
     font-size: 1.3em;
     line-height: 1.6;
 }
 
-.single-post .site-content .entry-content a:hover {
+.bl-blog .entry-content a:hover {
     color: #ee3c3b;
 }
 
@@ -1695,7 +1695,7 @@ object {
  Imagen
 */
 
-.single-post #primary img:not(.wp-post-image .alignright){
+.bl-blog #primary img:not(.wp-post-image .alignright){
     width:100% !important;
 }
 
@@ -1857,20 +1857,20 @@ input#cf-enviar:hover{
     # Typography
     --------------------------------------------------------------*/
 
-   .single-post .site-content h2:not(.comments-title) {
+    .bl-blog h2:not(.comments-title) {
         font-size: 28px;
         color: #ee3c3b;
     }
 
-    .single-post .site-content h3 {
+    .bl-blog h3 {
         font-size: 25px;
     }
 
-    .single-post .site-content h4 {
+    .bl-blog h4 {
         font-size: 22px;
     }
 
-    .single-post .site-content h5 {
+    .bl-blog h5 {
         font-size: 18px;
     }
 
@@ -1878,23 +1878,20 @@ input#cf-enviar:hover{
      ## Parrafos
     */
 
-    .single-post .site-content,
-    .single-post .site-content button,
-    .single-post .site-content input,
-    .single-post .site-content select,
-    .single-post .site-content optgroup,
-    .single-post .site-content textarea {
+    .bl-blog,
+    .bl-blog button,
+    .bl-blog input,
+    .bl-blog select,
+    .bl-blog optgroup,
+    .bl-blog textarea {
         color: #000;
         font-size: 16px;
         font-size: 1.1em;
         line-height: 1.6;
     }
 
-    .single-post .site-content h1 {
+    .bl-blog h1 {
         font-size:30px !important;
-    }
-
-    .single-post .entry-meta {
     }
 
     /*--------------------------------------------------------------

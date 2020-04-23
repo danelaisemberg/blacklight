@@ -1,4 +1,23 @@
 /#--------------------------------------------------------------
+## [1.1.0 ] - 23-04-2020
+----------------------------------------------------------------#/
+### Deprecated 
+- None
+
+### Fixed
+- None
+
+### Changed
+- Se mudaron los comentarios a template-part bl-comments.php
+
+### Added
+- template-part para comentarios en los contenidos bl-comments.php
+- Condicional que abre los comentarios si estan habilitados
+
+### Removed
+- None
+
+/#--------------------------------------------------------------
 ## [1.0.2 ] - 17-04-2020
 ----------------------------------------------------------------#/
 ### Deprecated 
