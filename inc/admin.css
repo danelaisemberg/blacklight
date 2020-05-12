@@ -122,3 +122,42 @@ Css Admin
     color:#fff;
     border:1px solid #000;
 }
+
+.blm_container,
+.blm_container > .acf-input > .acf-fields.-border{
+    background-color:#008bdb !important;
+    border:none;
+}
+
+.blm_container > .acf-input > .acf-fields.-border .acf-accordion-title {
+    background-color:#008bdb !important;
+    border:1px solid #f1f1f1;
+}
+
+.blm_container > .acf-label > label {
+    color:#fff;
+}
+
+{
+    background-color:#6c2eb9:
+}
+
+.blm_row .acf-row-handle.ui-sortable-handle,
+.blm_row .acf-row-handle.order {
+    background-color:#00c3aa !important;
+}
+
+.blm_clase input,
+.blm_id input {
+    background-color: #E0E5EA !important;
+    color: #00a08c;
+    font-family: Monaco, "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
+    border:none;
+    border-radius:0;
+}
+
+.blm_clase input:focus,
+.blm_id input:focus {
+    background-color: #27384A !important;
+    color: #44baff;
+}
