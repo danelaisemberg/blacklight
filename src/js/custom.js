@@ -10,6 +10,8 @@ $('a[href*="#"]')
     .not('[data-toggle = "pill"]')
     .not('[data-toggle = "collapse"]')
     .not('[class="button"]')
+    .not('[class="carousel-control-prev"]')
+    .not('[class="carousel-control-next"]')
     .click(function (event) {
         // On-page links
         if (
