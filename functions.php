@@ -46,6 +46,7 @@ if ( ! function_exists( 'blacklight_setup' ) ) :
         add_image_size( 'blog-secondaryFeatured', 350, 150, array( 'center', 'center' ) );
         add_image_size( 'blog-principalFeatured', 900, 440, array( 'center', 'center' ) );
         add_image_size( 'blog-hero', 1150, 430, array( 'center', 'center' ) );
+        add_image_size( 'wide', 1080, 230, array( 'center', 'center' ) );
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
