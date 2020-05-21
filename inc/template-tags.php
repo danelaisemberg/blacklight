@@ -146,3 +146,4 @@ if ( ! function_exists( 'blacklight_post_thumbnail' ) ) :
 		endif; // End is_singular().
 	}
 endif;
+

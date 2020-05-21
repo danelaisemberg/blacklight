@@ -150,3 +150,13 @@ add_filter( 'get_the_archive_title', function ($title) {
     return $title;
 
 });
+
+/**
+ * Output Breadcrumb
+ */
+function breadcrumb_bl() {
+    // Si es guia, ejecuta breadcrumb 
+    if ( is_singular() ) { 
+          yoast_breadcrumb( '<p id="breadcrumbs" class="small">','</p>' );
+    }           
+}

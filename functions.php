@@ -149,11 +149,6 @@ function blacklight_scripts() {
     wp_register_script( 'popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js', false, '', true );  
     wp_enqueue_script ( 'popper' );
     
-    /** ScrollReveal **/    
-    wp_register_script( 'scrollreveal', 'https://unpkg.com/scrollreveal/dist/scrollreveal.min.js', false, '', false );
-    wp_enqueue_script ( 'scrollreveal' );  
-    /** End ScrollReveal **/
-    
     /** jQuery **/
     wp_deregister_script('jquery');
 	wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js', array(), false, NULL, true);
@@ -171,12 +166,19 @@ function blacklight_scripts() {
     wp_enqueue_script ( 'masonry-js', get_template_directory_uri() . '/src/js/masonry.js', array('masonry'), '', true );
     wp_enqueue_script('masonry-init', get_template_directory_uri() . '/src/js/masonry-init.js', array('masonry'), '', true);
     /** End Masonry JS **/
-    
+
+   	/*Bootstrap CSS*/
+    wp_enqueue_style( 'aos-css', get_template_directory_uri() . '/src/css/aos.css');
+    /** End Bootstrapp CSS **/
+
+    /** aos JS **/
+    wp_enqueue_script ('aos-js', get_template_directory_uri() . '/src/js/aos.js', array('jquery'), '', true );
+    wp_enqueue_script('aos-init', get_template_directory_uri() . '/src/js/aos-init.js', array('jquery'), '', true);
+    /** End aos JS **/
+
     wp_enqueue_script ( 'blacklight-tether', get_template_directory_uri() . '/src/js/tether.min.js', array('jquery'), '', true );
         
-    wp_enqueue_script ( 'bootstrap-js', get_template_directory_uri() . '/src/js/bootstrap.min.js', array('jquery'), '', true );
-            
-
+    wp_enqueue_script ( 'bootstrap-js', get_template_directory_uri() . '/src/js/bootstrap.min.js', array('jquery'), '', true );            
 	wp_enqueue_script( 'blacklight-skip-link-focus-fix', get_template_directory_uri() . '/src/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
