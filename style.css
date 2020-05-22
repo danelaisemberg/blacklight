@@ -4,7 +4,7 @@ Theme URI: http://underscores.me/
 Author: Ingenima
 Author URI: http://www.ingenima.com
 Description: Starter Theme For Web Projects
-Version: 1.2.1
+Version: 1.2.3
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: blacklight
@@ -60,6 +60,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Footer
 # 404
 # Animaciones
+# Contacto
 
 
 --- Mobile ---
@@ -1837,6 +1838,14 @@ input#cf-enviar:hover{
     -webkit-transform: translateY(1rem);
     -webkit-opacity: 0;
   }
+}
+
+/*--------------------------------------------------------------
+# Contacto
+--------------------------------------------------------------*/
+
+.bl-contacto .bl-message img {
+    max-width: 150px;
 }
 
 /*--------------------------------------------------------------
